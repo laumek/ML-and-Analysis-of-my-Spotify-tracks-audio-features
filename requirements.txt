@@ -1,6 +1,9 @@
 pandas
 numpy
+dill
 spotipy
 seaborn
+spotipy
 scikit-learn
 matplotlib
+-e .
