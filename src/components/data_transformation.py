@@ -88,7 +88,7 @@ class DataTransformation:
             X.loc[:, 'song'] = X['name'] + ' - ' + X['artist']
             X = X.drop(columns=['name', 'artist'])
             X = X.set_index('song')
-            X = X[features]
+            X_cluster = X[features]
 
             logging.info('Data ready to be preprocessed.')
 
@@ -96,7 +96,7 @@ class DataTransformation:
 
             preprocessing_obj = self.get_data_transformer_object()
 
-            input_feature_data_df = X
+            input_feature_data_df = X_cluster
 
             logging.info('Applying preprocessing object on training dataframe')
 

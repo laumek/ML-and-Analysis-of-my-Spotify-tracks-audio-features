@@ -6,4 +6,5 @@ seaborn
 spotipy
 scikit-learn
 matplotlib
--e .
+kneed
+# -e .
