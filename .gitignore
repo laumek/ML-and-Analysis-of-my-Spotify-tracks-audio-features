@@ -173,3 +173,4 @@ basic_get_track_features.py
 song_speechiness.docx
 spotify_client_info.csv
 spotify_df_test.pkl
+.DS_Store
