@@ -4,7 +4,7 @@
 
 Using the Spotify Developper API, I am looking for trends of my listening habits and preferences through audio features analysis.
 
-I really like music. I am the kind of person that curates about 100 different playlists for each mood and sub-mood, and brags about listening to everything. In an attempt to better curate them, I decided to explore my songs meta data and audio features.
+I really like music, and tend to go a bit overboard with my playlists. In an attempt to better curate them, I decided to explore my songs meta data and audio features.
 
 🎯The first notebook details how I downloaded the required data from the Spotify API. 
 🎯The second one conducts a thorough analysis of this data through histograms, bar plots, radar charts and wordclouds. This has provided great insights into my listening trends and also revealed some possible errors in Spotify's gathered audio features. This notebook is updated as soon as I think of something new. 
